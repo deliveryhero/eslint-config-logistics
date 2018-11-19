@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-logistics",
+  "version": "1.0.0",
+  "description": "A eslint config for Delivery Hero logistics teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint:init": "eslint --init",
+    "lint": "eslint main.js"
+  },
+  "author": "tagir.almasov@deliveryhero.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
+    "prettier": "1.15.2"
+  },
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
+    "prettier": "1.15.2"
+  }
+}
