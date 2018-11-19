@@ -13,5 +13,3 @@ Then use the provided command to install all the peerDeps.
 1) `npm i -D @dh/eslint-config-logistics`
 2) `npx install-peerdeps --dev eslint-config-airbnb`
 3) Put `"extends": ["eslint-config-logistics"]` in your `.eslintrc`
-
-> Written with [StackEdit](https://stackedit.io/).
