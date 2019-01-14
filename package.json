@@ -1,15 +1,19 @@
 {
-  "name": "eslint-config-logistics",
-  "version": "1.0.0",
+  "name": "@logistics/eslint-config",
+  "version": "0.0.0-development",
   "description": "A eslint config for Delivery Hero logistics teams",
   "main": "index.js",
   "scripts": {
     "test": "test",
     "lint:init": "eslint --init",
-    "lint": "eslint main.js"
+    "lint": "eslint main.js",
+    "semantic-release": "semantic-release"
   },
   "author": "tagir.almasov@deliveryhero.com",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://nexus.usehurrier.com/repository/logistics-npm-group/"
+  },
   "peerDependencies": {
     "eslint": "5.9.0",
     "eslint-config-airbnb": "17.1.0",
@@ -29,11 +33,17 @@
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-react": "7.11.1",
-    "prettier": "1.15.2"
+    "npm-cli-login": "0.0.10",
+    "prettier": "1.15.2",
+    "semantic-release": "^15.13.3"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deliveryhero/eslint-config-logistics.git"
   }
 }

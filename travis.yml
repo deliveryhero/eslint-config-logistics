@@ -1,0 +1,17 @@
+language: node_js
+notifications:
+  email: false
+node_js:
+  - 'lts/*'
+install:
+  - npm
+script:
+  - npm test
+after_success:
+  - npm run npm-cli-login
+  - npm install -g travis-deploy-once
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+cache: npm
