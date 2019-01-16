@@ -18,7 +18,6 @@ module.exports = {
   },
   "plugins": [
     "prettier"
-
   ],
   'rules': {
     /**
