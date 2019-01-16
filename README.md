@@ -12,4 +12,4 @@ You need to have `eslint` and `prettier` installed.
 You need to install the config itself. 
 Then use the provided command to install all the peerDeps.
 1. `npm i -D @logistics/eslint-config` or `yarn add -D @logistics/eslint-config`
-2. Put `"extends": ["eslint-config-logistics"]` in your `.eslintrc`
+2. Put `"extends": ["@logistics/eslint-config"]` in your `.eslintrc`
