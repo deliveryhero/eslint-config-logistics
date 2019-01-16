@@ -1,7 +1,8 @@
 module.exports = {
   'extends': [
     'airbnb',
-    'prettier'
+    'prettier',
+    'prettier/react'
   ],
   'env': {
     'browser': true,
@@ -68,8 +69,9 @@ module.exports = {
     /**
       * Forbid default exports.
       * Further info: [https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-default-export.md]
-      * Change:  Activate this rule.
+      * Change: Motivate to use named exports.
+      * Warn is used to be able to use react/lazy which works with default exports only
     */
-    'import/no-default-export': 'error',
+    'import/no-default-export': 'warn',
   }
 }
