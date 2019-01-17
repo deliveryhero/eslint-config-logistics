@@ -8,8 +8,22 @@ The config includes:
  - Our custom rules
 
 ### How to use
-You need to have `eslint` and `prettier` installed.
-You need to install the config itself. 
-Then use the provided command to install all the peerDeps.
+You need to have `eslint`, `prettier` and `babel-eslint` installed.
+Then use the provided command to install the config itself.
 1. `npm i -D @logistics/eslint-config` or `yarn add -D @logistics/eslint-config`
 2. Put `"extends": ["@logistics/eslint-config"]` or `"extends": ["@logistics"]` in your `.eslintrc`
+
+**.eslintrc**
+
+```json
+{
+  "extends": [
+    "@logistics"
+  ]
+}
+```
+
+### Install peerDeps
+You can use [install-peerdeps package](https://www.npmjs.com/package/install-peerdeps) to install all the necessary peerDeps.
+
+`npx install-peerdeps @logistics/eslint-config --auth %YOUR_NPM_TOKEN% --registry https://nexus.usehurrier.com/repository/logistics-npm-group/`
