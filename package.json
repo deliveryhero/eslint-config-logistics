@@ -9,7 +9,7 @@
     "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
-  "author": "tagir.almasov@deliveryhero.com",
+  "author": "dh_logistics_frontend@deliveryhero.com",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://nexus.usehurrier.com/repository/logistics-npm-private/"
