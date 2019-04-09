@@ -5,6 +5,7 @@ The config includes:
 
  - [airbnb-config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
  - [prettier integrated with eslint](https://prettier.io/docs/en/eslint.html#use-eslint-to-run-prettier)
+ - react-hooks rules
  - Our custom rules
 
 ### How to use
