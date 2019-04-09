@@ -19,11 +19,12 @@ module.exports = {
     }
   },
   "plugins": [
-    "prettier"
+    "prettier",
+    "react-hooks"
   ],
   'rules': {
     /**
-      * Prettier plugin errors will result in eslint errors 
+      * Prettier plugin errors will result in eslint errors
       * Further info: [https://prettier.io/docs/en/eslint.html#use-eslint-to-run-prettier]
     */
     "prettier/prettier": "error",
@@ -74,5 +75,7 @@ module.exports = {
       * Warn is used to be able to use react/lazy which works with default exports only
     */
     'import/no-default-export': 'warn',
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
