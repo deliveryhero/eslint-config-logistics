@@ -16,22 +16,22 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "3.3.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-prettier": "3.0.0",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.13.0"
   },
   "peerDependencies": {
-    "eslint": "5.9.0",
-    "prettier": "1.15.2",
-    "babel-eslint": "10.0.1"
+    "babel-eslint": "10.0.x",
+    "eslint": "5.9.x",
+    "prettier": "1.15.x"
   },
   "devDependencies": {
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "5.9.0",
+    "eslint": "5.16.0",
     "eslint-plugin-react-hooks": "^1.6.0",
-    "prettier": "1.15.2",
+    "prettier": "1.18.2",
     "semantic-release": "^15.13.3"
   },
   "config": {
