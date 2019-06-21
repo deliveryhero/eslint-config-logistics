@@ -6,6 +6,7 @@
   "scripts": {
     "lint:init": "eslint --init",
     "lint": "eslint main.js",
+    "test": "echo 'No tests specified'",
     "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
