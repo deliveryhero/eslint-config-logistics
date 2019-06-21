@@ -1,12 +1,12 @@
 {
   "name": "@logistics/eslint-config",
-  "version": "0.0.2-development",
-  "description": "A eslint config for Delivery Hero logistics teams",
+  "version": "1.4.0",
+  "description": "A eslint config for Delivery Hero Logistics",
   "main": "index.js",
   "scripts": {
     "lint:init": "eslint --init",
     "lint": "eslint main.js",
-    "test": "echo 'No tests specified'",
+    "test": "echo 'No tests are specified'",
     "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
