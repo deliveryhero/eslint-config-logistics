@@ -1,5 +1,5 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-# Eslint config for logistics
+# ESLint config for Delivery Hero Logistics
 ### Config contents
 The config includes: 
 
