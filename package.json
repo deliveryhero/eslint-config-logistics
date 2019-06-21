@@ -1,7 +1,7 @@
 {
   "name": "@logistics/eslint-config",
-  "version": "0.0.2-development",
-  "description": "A eslint config for Delivery Hero logistics teams",
+  "version": "1.4.0",
+  "description": "A eslint config for Delivery Hero Logistics",
   "main": "index.js",
   "scripts": {
     "lint:init": "eslint --init",
