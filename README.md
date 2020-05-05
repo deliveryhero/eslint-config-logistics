@@ -11,15 +11,15 @@ The config includes:
 ### How to use
 You need to have `eslint`, `prettier` and `babel-eslint` installed.
 Then use the provided command to install the config itself.
-1. `npm i -D @logistics/eslint-config` or `yarn add -D @logistics/eslint-config`
-2. Put `"extends": ["@logistics/eslint-config"]` or `"extends": ["@logistics"]` in your `.eslintrc`
+1. `npm i -D @deliveryhero/logistics-eslint-config` or `yarn add -D @deliveryhero/logistics-eslint-config`
+2. Put `"extends": ["./node_modules/@deliveryhero/logistics-eslint-config"]` or `"extends": ["./node_modules/@deliveryhero"]` in your `.eslintrc`
 
 **.eslintrc**
 
 ```json
 {
   "extends": [
-    "@logistics"
+    "./node_modules/@deliveryhero"
   ]
 }
 ```
