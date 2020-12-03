@@ -76,6 +76,18 @@ module.exports = {
     */
     'import/no-default-export': 'warn',
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+
+    /**
+      * Disallow the use of console.
+      * Further info: https://eslint.org/docs/rules/no-console
+      * Change: Prevent accidental slips of console.{log,warn} messages.
+    */
+    'no-console': [
+      'error',
+      {
+        allow: ['error'],
+      },
+    ],
   }
 }
